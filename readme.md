@@ -38,12 +38,14 @@ LiveData Overview](https://developer.android.com/topic/libraries/architecture/li
 * [Forget RxJava: Kotlin Coroutines are all you need. Part 1/2](https://proandroiddev.com/forget-rxjava-kotlin-coroutines-are-all-you-need-part-1-2-4f62ecc4f99b)
 
 概要：RxJava vs kotlin coroutines
+
 | RxJava | kotlin coroutines |
 | --- | --- |
 | Performance overhead 操作符生成大量对象 | 较少对象 |
 | Unreadable stacktrace | Unreadable stacktrace |
 | The learning complexity & Readability | higher Readability |
 kotlin coroutines 写起来很像js的async await，非常接近同步写法了。
+
 * [The Android Lifecycle cheat sheet — part II: Multiple activities](https://medium.com/androiddevelopers/the-android-lifecycle-cheat-sheet-part-ii-multiple-activities-a411fd139f24)
 
 * [The Android Lifecycle cheat sheet — part III : Fragments](https://medium.com/androiddevelopers/the-android-lifecycle-cheat-sheet-part-iii-fragments-afc87d4f37fd)
