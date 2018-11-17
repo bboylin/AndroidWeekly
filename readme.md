@@ -31,3 +31,25 @@ LiveData Overview](https://developer.android.com/topic/libraries/architecture/li
 
 ### 第二期：2018/11/12-2018/11/18
 
+* [在 Chrome DevTools 中调试 JavaScript 入门](https://developers.google.com/web/tools/chrome-devtools/javascript/?hl=zh-cn)
+* [从一段奇怪代码开始说](https://zhuanlan.zhihu.com/p/24720906)
+
+概要：fresco中封装的`OOMSoftReference<T>`中持有3个相同的`SoftReference<T>`，原因是Dalvik每次GC的时候会把排在偶数位的SoftReference当成WeakReference来处理（如果它的引用不是GC Roots可达），如果GC for alloc之后仍没有足够内存分配 ，所有的SoftReference都会被clear。这意味着只要某对象有一个SoftReference活着，那它所有的SoftReference都活着，所以利用两个连续的SoftReference就能保证不会被GC，为了保险这里使用了三个。确保了只有在抛OOM之前OOMSoftReference在会被回收。
+* [Forget RxJava: Kotlin Coroutines are all you need. Part 1/2](https://proandroiddev.com/forget-rxjava-kotlin-coroutines-are-all-you-need-part-1-2-4f62ecc4f99b)
+
+概要：RxJava vs kotlin coroutines
+| RxJava | kotlin coroutines |
+| --- | --- |
+| Performance overhead 操作符生成大量对象 | 较少对象 |
+| Unreadable stacktrace | Unreadable stacktrace |
+| The learning complexity & Readability | higher Readability |
+kotlin coroutines 写起来很像js的async await，非常接近同步写法了。
+* [The Android Lifecycle cheat sheet — part II: Multiple activities](https://medium.com/androiddevelopers/the-android-lifecycle-cheat-sheet-part-ii-multiple-activities-a411fd139f24)
+
+* [The Android Lifecycle cheat sheet — part III : Fragments](https://medium.com/androiddevelopers/the-android-lifecycle-cheat-sheet-part-iii-fragments-afc87d4f37fd)
+
+* [R8, the new code shrinker from Google, is available in Android studio 3.3 beta](https://android-developers.googleblog.com/2018/11/r8-new-code-shrinker-from-google-is.html)
+
+概要：R8 does all of shrinking, desugaring and dexing in one step. When comparing to the current code shrinking solution, Proguard, R8 shrinks the code faster while improving the output size.
+
+### 第三期：2018/11/19-2018/11/25
