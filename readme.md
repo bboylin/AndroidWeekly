@@ -44,8 +44,8 @@ LiveData Overview](https://developer.android.com/topic/libraries/architecture/li
 | Performance overhead 操作符生成大量对象 | 较少对象 |
 | Unreadable stacktrace | Unreadable stacktrace |
 | The learning complexity & Readability | higher Readability |
-kotlin coroutines 写起来很像js的async await，非常接近同步写法了。
 
+kotlin coroutines 写起来很像js的async await，非常接近同步写法了。
 * [The Android Lifecycle cheat sheet — part II: Multiple activities](https://medium.com/androiddevelopers/the-android-lifecycle-cheat-sheet-part-ii-multiple-activities-a411fd139f24)
 
 * [The Android Lifecycle cheat sheet — part III : Fragments](https://medium.com/androiddevelopers/the-android-lifecycle-cheat-sheet-part-iii-fragments-afc87d4f37fd)
@@ -55,3 +55,11 @@ kotlin coroutines 写起来很像js的async await，非常接近同步写法了�
 概要：R8 does all of shrinking, desugaring and dexing in one step. When comparing to the current code shrinking solution, Proguard, R8 shrinks the code faster while improving the output size.
 
 ### 第三期：2018/11/19-2018/11/25
+
+* [Charles 从入门到精通](https://blog.devtang.com/2015/11/14/charles-introduction/#%E6%A8%A1%E6%8B%9F%E6%85%A2%E9%80%9F%E7%BD%91%E7%BB%9C)
+* [Do not always trust @JvmOverloads](https://medium.com/@mmlodawski/https-medium-com-mmlodawski-do-not-always-trust-jvmoverloads-5251f1ad2cfe)
+
+概要：@JvmOverloads在Android开发中诸多的坑。。。
+* [5 common mistakes when using Architecture Components](https://proandroiddev.com/5-common-mistakes-when-using-architecture-components-403e9899f4cb)
+
+### 第四期：2018/11/16-2018/12/2
