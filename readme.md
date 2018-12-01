@@ -62,4 +62,22 @@ kotlin coroutines 写起来很像js的async await，非常接近同步写法了�
 概要：@JvmOverloads在Android开发中诸多的坑。。。
 * [5 common mistakes when using Architecture Components](https://proandroiddev.com/5-common-mistakes-when-using-architecture-components-403e9899f4cb)
 
-### 第四期：2018/11/16-2018/12/2
+### 第四期：2018/11/26-2018/12/2
+
+* [Invokedynamic：Java的秘密武器](https://zhuanlan.zhihu.com/p/28124632)
+
+概要：Java字节码调方法的指令有：
+
+* invokevirtual——对实例方法的标准分派，根据实例类调用方法
+* invokestatic——用于分派静态方法
+* invokeinterface——用于通过接口进行方法调用的分派，比如List
+* invokespecial——invoke构造函数或者私有方法，当前实例父类的方法
+* invokedynamic——当解释器遇到该指令时候会调用BSM，返回一个CallSite类型的对象，包含一个MethodHandle，当包含invokedynamic的类加载时，调用点会处于“unlaced”状态，在BSM返回之后，得到的CallSite和方法句柄会让调用点处于“laced”状态。
+
+* [Translation of Lambda Expressions](http://cr.openjdk.java.net/~briangoetz/lambda/lambda-translation.html)
+
+* [安装包立减1M--微信Android资源混淆打包工具](https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=208135658&idx=1&sn=ac9bd6b4927e9e82f9fa14e396183a8f#rd)
+
+* [Android逆向之旅---解析编译之后的Resource.arsc文件格式](https://blog.csdn.net/jiangwei0910410003/article/details/50628894)
+
+### 第五期：2018/12/3-2018/12/9
