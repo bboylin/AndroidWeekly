@@ -81,3 +81,12 @@ kotlin coroutines 写起来很像js的async await，非常接近同步写法了�
 * [Android逆向之旅---解析编译之后的Resource.arsc文件格式](https://blog.csdn.net/jiangwei0910410003/article/details/50628894)
 
 ### 第五期：2018/12/3-2018/12/9
+
+* [Understanding Android Matrix transformations](https://medium.com/a-problem-like-maria/understanding-android-matrix-transformations-25e028f56dc7)
+
+概要：scaleType="matrix"，with a default matrix the scale will be 1, the translation, rotation and skew will be 0, therefore the image will be drawn at the top left corner
+* [Hummingbird: Building Flutter for the Web](https://medium.com/flutter-io/hummingbird-building-flutter-for-the-web-e687c2a023a8)
+
+* [How JavaScript works: an overview of the engine, the runtime, and the call stack](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
+
+### 第六期：2018/12/10-2018/12/16
