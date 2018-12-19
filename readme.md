@@ -90,3 +90,13 @@ kotlin coroutines 写起来很像js的async await，非常接近同步写法了�
 * [How JavaScript works: an overview of the engine, the runtime, and the call stack](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
 
 ### 第六期：2018/12/10-2018/12/16
+
+* [支付宝 App 构建优化解析：Android 包大小极致压缩](https://juejin.im/post/5be9485a51882516b937785f)
+
+* [Activity页面展示过程](https://bboylin.github.io/2018/12/18/Activity%E9%A1%B5%E9%9D%A2%E6%98%BE%E7%A4%BA%E6%B5%81%E7%A8%8B/#more)
+
+* [overridePendingTransition居然失效了？](https://bboylin.github.io/2018/11/03/overridePendingTransition%E5%B1%85%E7%84%B6%E5%A4%B1%E6%95%88%E4%BA%86%EF%BC%9F/)
+
+* [How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e)
+
+### 第七期：2018/12/17-2018/12/23
