@@ -100,3 +100,11 @@ kotlin coroutines 写起来很像js的async await，非常接近同步写法了�
 * [How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e)
 
 ### 第七期：2018/12/17-2018/12/23
+
+* [微信终端跨平台组件 mars 系列（一） - 高性能日志模块xlog](https://mp.weixin.qq.com/s/cnhuEodJGIbdodh0IxNeXQ?)
+
+* [LayoutInflater源码分析](https://bboylin.github.io/2018/12/21/LayoutInflater%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/#more)
+
+* [Android 3.0 Hardware Acceleration](https://android-developers.googleblog.com/search/label/Optimization)
+
+### 第八期：2018/12/24-2018/12/30
