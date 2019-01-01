@@ -108,3 +108,13 @@ kotlin coroutines 写起来很像js的async await，非常接近同步写法了�
 * [Android 3.0 Hardware Acceleration](https://android-developers.googleblog.com/search/label/Optimization)
 
 ### 第八期：2018/12/24-2018/12/30
+
+* [Getting To Know Android 4.1, Part 3: Project Butter - How It Works And What It Added](https://www.androidpolice.com/2012/07/12/getting-to-know-android-4-1-part-3-project-butter-how-it-works-and-what-it-added/)
+
+* [Android组件化方案及组件消息总线modular-event实战](https://zhuanlan.zhihu.com/p/53116391)
+
+* [Android消息总线的演进之路：用LiveDataBus替代RxBus、EventBus](https://tech.meituan.com/Android_LiveDataBus.html)
+
+* [面向对象SOLID原则](https://en.wikipedia.org/wiki/SOLID)
+
+### 第九期：2018/12/31-2018/1/6
